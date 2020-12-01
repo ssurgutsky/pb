@@ -1,0 +1,594 @@
+{
+	"settings": [
+		"Settings"
+	],
+	"multi_player_games": [
+		"Multi-Player Games",
+		"マルチプレーヤーゲーム",
+		"多玩家牌局",
+		"多玩家游戏"
+	],
+	"tournament_games": [
+		"Tournaments",
+		"トーナメント",
+		"賽事",
+		"比赛"
+	],
+	"balance: $": [
+		"Balance: $",
+		"バランス: $",
+		"平衡: $",
+		"平衡: $"
+	],
+	"rules": [
+		"Rules",
+		"ルール",
+		"規則",
+		"规则"
+	],
+	"Rules:": [
+		"Rules:",
+		"ルール:",
+		"規則:",
+		"规则:"
+	],
+	"buy_in_limits": [
+		"Buy In Limits",
+		"リミットで購入する",
+		"籌碼限制",
+		"购入限制"
+	],
+	"game_type": [
+		"Game Type",
+		"ゲームタイプ",
+		"遊戲類型",
+		"游戏类型"
+	],
+	"rules:_": [
+		"Rules: ",
+		"ルール: ",
+		"規則: ",
+		"规则: "
+	],
+	"buy_in_limits:_": [
+		"Buy In Limits: ",
+		"リミットで購入する: ",
+		"籌碼限制: ",
+		"购入限制: "
+	],
+	"game_type:_": [
+		"Game Type: ",
+		"ゲームタイプ: ",
+		"遊戲類型: ",
+		"游戏类型: "
+	],
+	"style:_": [
+		"Style: "
+	],
+	"all": [
+		"All"
+	],
+	"table_name": [
+		"Table Name",
+		"テーブル名",
+		"牌桌名稱",
+		"桌名"
+	],
+	"players": [
+		"Players",
+		"プレーヤー",
+		"玩家",
+		"玩家"
+	],
+	"Register": [
+		"Register",
+		"登録",
+		"註冊",
+		"注册"
+	],
+	"Login": [
+		"Login",
+		"ログイン",
+		"登錄",
+		"登录"
+	],
+	"Connect": [
+		"Connect"
+	],
+	"Players": [
+		"Players",
+		"プレーヤー",
+		"玩家",
+		"玩家"
+	],
+	"Players:": [
+		"Players:",
+		"プレーヤー:",
+		"玩家:",
+		"玩家:"
+	],
+	"bet": [
+		"Bet",
+		"賭ける",
+		"賭注",
+		"下注"
+	],
+	"Bet: $": [
+		"Bet: $",
+		"賭ける: $",
+		"賭注: $",
+		"下注: $"
+	],
+	"max_win": [
+		"Max Win",
+		"最大勝利",
+		"最大贏家",
+		"最大赢家"
+	],
+	"Details:": [
+		"Details:"
+	],
+	"Reserved:": [
+		"Reserved:",
+		"予約済み:",
+		"保留:",
+		"已保留:"
+	],
+	"Max Win: $": [
+		"Max Win: $",
+		"最大勝利: $",
+		"最大贏家: $",
+		"最大赢家: $"
+	],
+	"Max Win:": [
+		"Max Win:",
+		"最大勝利:",
+		"最大贏家:",
+		"最大赢家:"
+	],
+	"Duration:": [
+		"Duration:"
+	],
+	"Starts In:": [
+		"Starts In:"
+	],
+	"Rounds:": [
+		"Rounds:"
+	],
+	"Round length:": [
+		"Round length:"
+	],
+	"Speed:": [
+		"Speed:",
+		"スピード:",
+		"速度:",
+		"速度:"
+	],
+	"Single Hand": [
+		"Single Hand",
+		"シングルハンド",
+		"單局",
+		"单手"
+	],
+	"single hand": [
+		"single hand",
+		"シングルハンド",
+		"單局",
+		"单手"
+	],
+	"East Only": [
+		"East Only",
+		"東のみ",
+		"僅限東家",
+		"仅作庄"
+	],
+	"east only": [
+		"east only",
+		"東のみ",
+		"僅限東家",
+		"仅作庄"
+	],
+	"Full Game": [
+		"Full Game",
+		"フルゲーム",
+		"整場牌局",
+		"完整游戏"
+	],
+	"full game": [
+		"full game",
+		"フルゲーム",
+		"整場牌局",
+		"完整游戏"
+	],
+	"Japanese Riichi": [
+		"Japanese Riichi",
+		"リーチ",
+		"立直麻將",
+		"日本麻将"
+	],
+	"Hong Kong": [
+		"Hong Kong",
+		"香港",
+		"香港",
+		"香港麻将"
+	],
+	"Taiwan": [
+		"Taiwanese",
+		"台湾",
+		"台灣人",
+		"台湾麻将"
+	],
+	"start_time": [
+		"Start Time",
+		"開始時間",
+		"開始計時",
+		"开始时间"
+	],
+	"name": [
+		"Name",
+		"名前",
+		"名字",
+		"姓名"
+	],
+	"Name:": [
+		"Name:",
+		"名前:",
+		"名字:",
+		"姓名:"
+	],
+	"pot": [
+		"Pot",
+		"ポット",
+		"獎池",
+		"奖金池"
+	],
+	"Pot:": [
+		"Pot:",
+		"ポット:",
+		"獎池:",
+		"奖金池:"
+	],
+	"cost": [
+		"Cost",
+		"コスト",
+		"費用",
+		"消费"
+	],
+	"waiting_for_players": [
+		"Waiting for Players",
+		"プレーヤー待ち",
+		"等玩家加入牌局",
+		"等待其他玩家"
+	],
+	"wrong_orientation": [
+		"Wrong Orientation"
+	],
+	"please_rotate_device": [
+		"Please rotate device to\ncontinue playing!"
+	],
+	"avatar_images_can_only_be": [
+		"Avatar images can only\nbe 64x64 pixels (will be scaled down if larger)"
+	],
+	"enter_message": [
+		"Enter message..."
+	],
+	"input_here...": [
+		"input here..."
+	],
+	"choose_meld": [
+		"Choose Meld",
+		"面子を選択",
+		"選擇一組牌",
+		"选择组"
+	],
+	"login": [
+		"Login",
+		"ログイン",
+		"登錄",
+		"登录"
+	],
+	"leave_table": [
+		"Leave The Table",
+		"テーブルを去る",
+		"離開牌局",
+		"离开本桌"
+	],
+	"choose_language": [
+		"Choose Language"
+	],
+	"english": [
+		"English"
+	],
+	"japanese": [
+		"Japanese"
+	],
+	"chinese_traditional": [
+		"Chinese Traditional"
+	],
+	"chinese_simplified": [
+		"Chinese Simplified"
+	],
+	"create_custom_table": [
+		"Create a Custom Table",
+		"カスタムテーブルを作成する",
+		"開設傳統牌局",
+		"创建自定义桌"
+	],
+	"buy_in_amount:": [
+		"Buy In Amount:"
+	],
+	"Buy-in:": [
+		"Buy-in:"
+	],
+	"auto_play": [
+		"Auto Play",
+		"自動プレイ",
+		"自動開局",
+		"托管"
+	],
+	"mahjong": [
+		"Mahjong",
+		"麻雀",
+		"麻將",
+		"麻将"
+	],
+	"pass": [
+		"Pass",
+		"パス",
+		"傳牌",
+		"过"
+	],
+	"Automatic Ron Tsumo": [
+		"Automatic Ron / Tsumo",
+		"自動ロン/ツモ",
+		"自動胡牌/ 自摸",
+		"自动胡牌/自摸"
+	],
+	"Auto Pass": [
+		"Auto Pass",
+		"オートパス",
+		"自動補牌",
+		"自动过"
+	],
+	"Auto Discard": [
+		"Auto Discard",
+		"自動捨て牌",
+		"自動打牌",
+		"自动出牌"
+	],
+	"auto_declare_bonus": [
+		"Auto-declare bonus"
+	],
+	"auto_close_score": [
+		"Auto-close score"
+	],
+	"music": [
+		"Music"
+	],
+	"sounds": [
+		"Sounds"
+	],
+	"animations": [
+		"Animations"
+	],
+	"number_on_tiles": [
+		"Number on Tiles"
+	],
+	"language": [
+		"Language"
+	],
+	"bone_skin": [
+		"Bone Skin"
+	],
+	"hide_full_tables": [
+		"Hide Full Tables",
+		"フルテーブルを非表示にする",
+		"隱藏整局牌桌",
+		"隐藏已满桌"
+	],
+	"South": [
+		"South",
+		"南",
+		"南",
+		"南"
+	],
+	"West": [
+		"West",
+		"西",
+		"西",
+		"西"
+	],
+	"East": [
+		"East",
+		"東",
+		"東",
+		"东"
+	],
+	"North": [
+		"North",
+		"北",
+		"北",
+		"北"
+	],
+	"search": [
+		"Search",
+		"検索",
+		"索引",
+		"搜索"
+	],
+	"Create Table": [
+		"Create Table",
+		"テーブルの作成",
+		"開局",
+		"创建桌"
+	],
+	"Create": [
+		"Create",
+		"作成する",
+		"開局",
+		"创建"
+	],
+	"Yes": [
+		"Yes",
+		"はい",
+		"是",
+		"确定"
+	],
+	"No": [
+		"No",
+		"いいえ",
+		"否",
+		"取消"
+	],
+	"Join": [
+		"Join",
+		"参加する",
+		"加入牌局",
+		"加入"
+	],
+	"Watch": [
+		"Watch",
+		"時計",
+		"旁觀",
+		"观看"
+	],
+	"Cancel": [
+		"Cancel"
+	],
+	"Custom": [
+		"Custom..."
+	],
+	"Send": [
+		"Send"
+	],
+	"OK": [
+		"OK"
+	],
+	"AUTO": [
+		"AUTO"
+	],
+	"PASS": [
+		"PASS",
+		"パス",
+		"傳牌",
+		"过"
+	],
+	"CHOW": [
+		"CHOW",
+		"チー",
+		"順子",
+		"順子"
+	],
+	"PONG": [
+		"PONG",
+		"ポン",
+		"碰牌",
+		"碰"
+	],
+	"KONG": [
+		"KONG",
+		"カン",
+		"槓牌",
+		"杠"
+	],
+	"CHII": [
+		"CHII",
+		"チー",
+		"吃牌",
+		"吃"
+	],
+	"PON": [
+		"PON",
+		"ポン",
+		"碰",
+		"碰"
+	],
+	"KAN": [
+		"KAN",
+		"カン",
+		"槓",
+		"杠"
+	],
+	"RON": [
+		"RON",
+		"ロン",
+		"胡",
+		"胡"
+	],
+	"TSUMO": [
+		"TSUMO",
+		"ツモ",
+		"自摸",
+		"自摸"
+	],
+	"RIICHI": [
+		"RIICHI",
+		"リーチ",
+		"立直麻將",
+		"日本麻将"
+	],
+	"MAHJONG": [
+		"MAHJONG",
+		"麻雀",
+		"麻將",
+		"麻将"
+	],
+	"Play Again": [
+		"Play Again",
+		"もう一度プレーする",
+		"再打一局",
+		"再来一局"
+	],
+	"Taiwanese": [
+		"Taiwanese",
+		"台湾",
+		"台灣人",
+		"台湾麻将"
+	],
+	"FINAL SCORE": [
+		"FINAL SCORE",
+		"最終得点",
+		"總計分",
+		"最终分数"
+	],
+	"Fans": [
+		"Fans"
+	],
+	"HAND DETAILS:": [
+		"HAND DETAILS:"
+	],
+	"Settlement": [
+		"Settlement"
+	],
+	"Current score": [
+		"Current score"
+	],
+	"Upcoming Tournaments": [
+		"Upcoming Tournaments",
+		"次のトーナメント",
+		"接下來的賽事",
+		"比赛预告"
+
+	],
+	"looking_for_players": [
+		"Looking for players"
+	],
+	"Accepting the tournament...": [
+		"Accepting the tournament will withdraw the buy-in from\n your account. If you choose to unregister from the\n tournament at a later time, but before the tournament\n starts, the buy-in will be refunded to your account.",
+		"トーナメントを受諾すると、アカウントからバ\nイインが引き出されます。後でトーナメントか\nら登録を解除することを選択し、トーナ\nメントが始まる前のた場合は、バイインはアカ\nウントに払い戻されます。",
+		"賽事報名成功時，將從您的帳號收取買入費。稍後\n，您若選擇在賽事開始前取消報名，退還的買\n入費會匯入您的帳號。",
+		"同意在比赛中使用您账户内的购入金额。比赛开始\n前，如您选择取消注册，购入金额将会退还\n至您的账户。"
+	],
+	"Tournament Registration": [
+		"Tournament Registration",
+		"トーナメント登録",
+		"賽事報名",
+		"注册比赛"
+	],
+	"Payout:": [
+		"Payout:",
+		"支払い/ボーナスを出す:",
+		"賠率/地點獎金:",
+		"支出/存留奖金:"
+	]
+}

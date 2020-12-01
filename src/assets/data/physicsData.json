@@ -1,0 +1,59 @@
+{
+	"cross200x200": [
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,75, 200,75, 200,125, 0,125]
+		},
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [75,0, 125,0, 125,200, 75,200]
+		}
+	],
+
+	"cross100x100": [
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,37.5, 100,37.5, 100,62.5, 0,62.5]
+		},
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [75,0, 125,0, 125,200, 75,200]
+		}
+	],
+
+	"block400x50oval": [
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,10, 50,0, 350,0, 400,10, 400,40, 350,50, 50,50, 0,40]
+		}
+	],
+
+	"board1Frame": [
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [250,0, 350,0, 50,1100, 0,1100]
+		},
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [1450,0, 1920,1100, 1650,1100, 1350,0]
+		},
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,0, 1920,0, 1920,50, 0,50]
+		},
+		{
+			"density": 2, "friction": 0, "bounce": 0,
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,950, 1920,950, 1920,1100, 0,1100]
+		}
+
+	]
+}
