@@ -1,0 +1,10 @@
+{
+	"shape": "CIRCLE",
+	"shapeName": "",
+	"atlas": "common",
+	"frame": "ball_big",
+	"isRespawnable": true,
+	"bodyMass": 1,
+	"impulseMultiplier": 3,
+	"isBall": true
+}

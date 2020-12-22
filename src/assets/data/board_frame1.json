@@ -1,0 +1,7 @@
+{
+	"name": "board_frame1",
+	"bodyType": "STATIC",
+	"shape": "POLYGON",
+	"shapeName": "board_frame1shape",
+	"isBoardFrame": true
+}

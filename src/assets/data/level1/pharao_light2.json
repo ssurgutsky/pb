@@ -1,0 +1,67 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "pharao216x200",
+	"atlas": "level1",
+	"lives": 3,
+	"livesFrames": ["pharao216x200_1","pharao216x200_2","pharao216x200_3"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","KINEMATIC"],
+	"livesCoins": [100,100,100],
+	"livesEffect": true,
+	"hasDust": true,
+	"bodyMass": 5,
+	"minHitImpulse": 1000,
+	"debrises": [
+		{
+			"name": "d1",
+			"isTask": true,
+			"template": "debris_atom1",
+			"lx": 0,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d2",
+			"template": "debris_pharao2",
+			"lx": 30,
+			"ly": 30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d3",
+			"template": "debris_pharao3",
+			"lx": -30,
+			"ly": 30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d4",
+			"template": "debris_pharao3",
+			"lx": 30,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d5",
+			"template": "debris_pharao2",
+			"lx": -30,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+
+	]
+}

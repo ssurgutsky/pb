@@ -1,0 +1,13 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "pusher1shape",
+	"atlas": "common",
+	"frame": "pusher",
+	"pBodyMass": 500,
+	"pScaleGravity": -40,
+	"pPrismaticConstraintAnchorB": 60,
+	"pOffsetY": 45,
+	"pMinY": 28,
+	"pMaxY": 210,
+	"isPusher": true
+}
