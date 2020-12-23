@@ -1,0 +1,11 @@
+{
+	"name": "tutorialHand1",
+	"bodyType": "STATIC",
+	"atlas": "tutorials",
+	"frame": "tutorial-hand",
+	"tweens": {
+		"idle": {"to": {"y": 1000, "ease": "bounceOut"}, "duration": 500, "delay": 1000, "repeat": -1, "yoyo": false, "repeatDelay": 2000}
+	},
+	"isDecor": true,
+	"layer": 4
+}

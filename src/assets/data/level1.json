@@ -1,10 +1,10 @@
 {
 	"preload": {
 		"ATLAS_JSON_ARRAYS": [
-			{ "key": "level1", "url": "src/assets/images/{v}/level1" }
+			{ "key": "level1", "url": "src/assets/images/level1" }
 		],
 		"IMAGES": [
-			{ "key": "bg1", "url": "src/assets/images/{v}/bg/bg1.jpg" }
+			{ "key": "bg1", "url": "src/assets/images/bg/bg1.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -14,6 +14,11 @@
 
 			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+			{ "key": "tutorial_hand1", "url": "src/assets/data/tutorial_hand1.json" },
+
+			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/level1/debris_atom1.json" },
 
@@ -40,18 +45,8 @@
 		},
 
 		{
-			"name": "sensorBigFail",
-			"atlas": "common",
-			"frame": "sensorFail200x50",
-			"bodyType": "STATIC",
-			"isSensor": true,
-			"respawnOnHit": true,
-			"coins": 0,
-			"x": 960,
-			"y": 1000,
-			"layer": 3,
-			"w": 1920,
-			"alpha": 0.3
+			"name": "sensorGround",
+			"template": "sensor_ground"
 		},
 
 		{
@@ -114,6 +109,28 @@
 			"x": 1017,
 			"y": 270,
 			"layer": 2
+		},
+
+		{
+			"name": "h1",
+			"template": "hint1",
+			"x": 1017,
+			"y": 270,
+			"layer": 3
+		},
+		{
+			"name": "h2",
+			"template": "hint1",
+			"x": 1720,
+			"y": 700,
+			"layer": 3
+		},
+		{
+			"name": "th1",
+			"template": "tutorial_hand1",
+			"x": 1820,
+			"y": 870,
+			"layer": 3
 		}
 	]
 }

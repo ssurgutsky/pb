@@ -1,10 +1,10 @@
 {
 	"preload": {
 		"ATLAS_JSON_ARRAYS": [
-			{ "key": "level10", "url": "src/assets/images/{v}/level10" }
+			{ "key": "level10", "url": "src/assets/images/level10" }
 		],
 		"IMAGES": [
-			{ "key": "bg10", "url": "src/assets/images/{v}/bg/bg10.jpg" }
+			{ "key": "bg10", "url": "src/assets/images/bg/bg10.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -14,6 +14,8 @@
 
 			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
+
+			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/level10/debris_atom1.json" },
 
@@ -49,18 +51,10 @@
 		},
 
 		{
-			"name": "sensorBigFail",
-			"atlas": "common",
-			"frame": "sensorFail200x50",
-			"bodyType": "STATIC",
-			"isSensor": true,
-			"respawnOnHit": true,
-			"coins": 0,
+			"name": "sensorGround",
+			"template": "sensor_ground",
 			"x": 960,
-			"y": 1050,
-			"layer": 3,
-			"w": 1920,
-			"alpha": 0.3
+			"y": 1050
 		},
 
 		{

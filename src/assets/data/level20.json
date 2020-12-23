@@ -3,6 +3,8 @@
 			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
 
+			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
+
 			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/level1/brick1_3.json" },
@@ -158,16 +160,8 @@
 			"y": 530
 		},
 		{
-			"name": "sensorBigFail",
-			"atlas": "common",
-			"frame": "sensorFail200x50",
-			"bodyType": "STATIC",
-			"isSensor": true,
-			"respawnOnHit": true,
-			"coins": 0,
-			"x": 960,
-			"y": 950,
-			"w": 1920
+			"name": "sensorGround",
+			"template": "sensor_ground"
 		},
 		{
 			"name": "sideBlock1",

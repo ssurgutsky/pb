@@ -96,6 +96,36 @@
 			"shape": [26,79, 88,20, 150,79, 128,148, 54,148]
 		}
 	],
+	"jewel2shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [61,154, 37,39, 111,22, 145,137]
+		}
+	],
+	"jewel3shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [31,128, 51,58, 128,31, 148,80, 79,150]
+		}
+	],
+	"jewel4shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [46,129, 54,29, 129,71, 135,128, 83,154]
+		}
+	],
+	"jewel5shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [48,133, 43,33, 157,105, 86,145]
+		}
+	],
+	"jewel6shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [21,96, 69,37, 154,41, 123,144]
+		}
+	],
 
 	"pharao216x200": [
 		{
