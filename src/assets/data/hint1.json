@@ -3,9 +3,9 @@
 	"bodyType": "STATIC",
 	"atlas": "animations",
 	"frame": "hint00",
-	"animation": {
+	"animations": {
 		"idle": {"frameName": "hint0", "framesCount": 1, "frameRate": 1, "isStart": true},
-		"blink": {"frameName": "hint0", "framesCount": 8, "frameRate": 24, "isLoop": false, "delay": 5}
+		"blink": {"frameName": "hint0", "framesCount": 8, "frameRate": 24, "isLoop": false, "randomDelay": [3,5]}
 	},
 	"isDecor": true,
 	"layer": 3

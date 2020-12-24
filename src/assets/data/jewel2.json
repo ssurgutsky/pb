@@ -6,7 +6,7 @@
 	"frame": "Jewel02_000",
 	"impulseMultiplier": 3,
 	"bodyMass": 1,
-	"animation": {
+	"animations": {
 		"idle": {"frameName": "Jewel02_00", "framesCount": 1, "frameRate": 1, "isStart": true},
 		"blink": {"frameName": "Jewel02_00", "framesCount": 4, "frameRate": 24, "isLoop": false, "delay": 5}
 	},
