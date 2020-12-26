@@ -19,7 +19,7 @@
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
-			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "pharao_medium", "url": "src/assets/data/assets0001/pharao_medium.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
@@ -68,7 +68,7 @@
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
-			"x": 1795,
+			"x": 1800,
 			"y": 655,
 			"layer": 3,
 			"isPusher": true
@@ -101,10 +101,10 @@
 			"layer": 2
 		},
 		{
-			"name": "pharao3",
-			"template": "pharao_light",
-			"x": 852,
-			"y": 486,
+			"name": "pharao",
+			"template": "pharao_medium",
+			"x": 300,
+			"y": 500,
 			"layer": 2
 		}
 	]

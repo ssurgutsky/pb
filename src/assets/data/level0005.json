@@ -4,7 +4,7 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/bg0001.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -68,7 +68,7 @@
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
-			"x": 1795,
+			"x": 1800,
 			"y": 655,
 			"layer": 3,
 			"isPusher": true
@@ -96,10 +96,18 @@
 		{
 			"name": "Ball1",
 			"template": "ball_big1",
-			"x": 1720,
+			"x": 1700,
 			"y": 710,
 			"layer": 2
 		},
+		{
+			"name": "Ball2",
+			"template": "ball_big1",
+			"x": 1740,
+			"y": 650,
+			"layer": 2
+		},
+
 		{
 			"name": "pharao3",
 			"template": "pharao_medium",

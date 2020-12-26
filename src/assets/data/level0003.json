@@ -68,7 +68,7 @@
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
-			"x": 1795,
+			"x": 1800,
 			"y": 655,
 			"layer": 3,
 			"isPusher": true
