@@ -1,7 +1,7 @@
 {
 	"name": "hint1",
 	"bodyType": "STATIC",
-	"atlas": "animations",
+	"atlas": "tutorials",
 	"frame": "hint00",
 	"animations": {
 		"idle": {"frameName": "hint0", "framesCount": 1, "frameRate": 1, "isStart": true},

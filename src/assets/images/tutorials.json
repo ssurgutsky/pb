@@ -1,8 +1,80 @@
 {"frames": [
 
 {
+	"filename": "hint00",
+	"frame": {"x":806,"y":629,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1}
+},
+{
+	"filename": "hint01",
+	"frame": {"x":1,"y":1,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint02",
+	"frame": {"x":1,"y":315,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint03",
+	"frame": {"x":1,"y":629,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint04",
+	"frame": {"x":315,"y":1,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint05",
+	"frame": {"x":315,"y":315,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint06",
+	"frame": {"x":315,"y":629,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint07",
+	"frame": {"x":629,"y":1,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint08",
+	"frame": {"x":629,"y":315,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
 	"filename": "tutorial-hand",
-	"frame": {"x":1,"y":1,"w":175,"h":158},
+	"frame": {"x":629,"y":629,"w":175,"h":158},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":175,"h":158},
@@ -13,8 +85,8 @@
 	"version": "1.0",
 	"image": "tutorials.png",
 	"format": "RGBA8888",
-	"size": {"w":177,"h":160},
+	"size": {"w":942,"h":942},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:bfe505ac208e61b4ee68c4834bf76dac:434788f3eb168b0ea2811cbdc11ac842:c891b3ceaca1298c0ce460f701f483fd$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6f281dbcd6d45d93967a1f54ede7ad53:b733e978e315ce441d167128637e42f5:c891b3ceaca1298c0ce460f701f483fd$"
 }
 }

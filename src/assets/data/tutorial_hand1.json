@@ -7,6 +7,7 @@
 		"blink": {
 			"delay": 10,
 			"randomDelay": [5,8],
+			"firstDelay": 1,
 			"timeline": [
 				{"to": {"alpha": 1}, "initY": 850, "duration": 1000},
 				{"toBody": {"y": 1000}, "duration": 500},

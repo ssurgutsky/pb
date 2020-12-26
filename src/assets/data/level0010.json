@@ -1,0 +1,130 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0002", "url": "src/assets/images/assets0002" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0010.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+		],
+		"JSON": [
+			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
+			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
+
+			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0002/debris_atom1.json" },
+
+			{ "key": "dude_head002", "url": "src/assets/data/assets0002/dude_head002.json" },
+			{ "key": "dude_head002_1", "url": "src/assets/data/assets0002/dude_head002_1.json" },
+			{ "key": "dude_head002_2", "url": "src/assets/data/assets0002/dude_head002_2.json" },
+
+
+			{ "key": "dude_body002", "url": "src/assets/data/assets0002/dude_body002.json" },
+			{ "key": "dude_body002_1", "url": "src/assets/data/assets0002/dude_body002_1.json" },
+			{ "key": "dude_body002_2", "url": "src/assets/data/assets0002/dude_body002_2.json" },
+
+			{ "key": "dude_debris1", "url": "src/assets/data/assets0002/dude_debris1.json" },
+			{ "key": "dude_debris2", "url": "src/assets/data/assets0002/dude_debris2.json" },
+			{ "key": "dude_debris3", "url": "src/assets/data/assets0002/dude_debris3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0002/beam1.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0002/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 30,
+	"tasks": 4,
+	"objects": [
+		{
+			"name": "bf1",
+			"template": "board_frame1",
+			"x": 0,
+			"y": 0,
+			"layer": 0
+		},
+
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground",
+			"x": 960,
+			"y": 1050
+		},
+
+		{
+			"name": "Pusher",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 800,
+			"layer": 3
+		},
+		{
+			"name": "pSideLeft",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block50x200",
+			"x": 1640,
+			"y": 655,
+			"layer": 3,
+			"isPusher": true
+		},
+		{
+			"name": "pSideRight",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block50x200",
+			"x": 1795,
+			"y": 655,
+			"layer": 3,
+			"isPusher": true
+		},
+		{
+			"name": "PBase1",
+			"isDisabled": false,
+			"atlas": "common",
+			"bodyType": "STATIC",
+			"frame": "pusher-base1",
+			"shapeName": "",
+			"isSensor": true,
+			"isDecor": true,
+			"x": 1720,
+			"y": 790,
+			"layer": 3
+		},
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 99999,
+			"layer": 3
+		},
+		{
+			"name": "Ball1",
+			"template": "ball_big1",
+			"x": 1720,
+			"y": 710,
+			"layer": 2
+		},
+		{
+			"name": "dude_head002",
+			"template": "dude_head002",
+			"x": 908,
+			"y": 690,
+			"layer": 2
+		},
+		{
+			"name": "dude_body002",
+			"template": "dude_body002",
+			"x": 906,
+			"y": 900,
+			"layer": 2
+		}
+
+	]
+}
