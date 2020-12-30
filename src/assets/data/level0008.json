@@ -169,7 +169,7 @@
 		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 99999,
+			"lives": 99,
 			"layer": 3
 		},
 		{

@@ -12,6 +12,7 @@
 	},
 	"isBall": true,
 	"isRespawnable": true,
+	"respawnSound": "respawn",
 	"lives": 30,
 	"livesEffect": true,
 	"minHitImpulse": 1000,

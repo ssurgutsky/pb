@@ -7,6 +7,7 @@
 	"bodyMass": 2,
 	"minHitImpulse": 1000,
 	"lives": 1,
+	"hitSound": "hit_block",
 	"hasDust": true,
 	"debrises": [
 		{

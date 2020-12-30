@@ -9,5 +9,6 @@
 	"pOffsetY": 45,
 	"pMinY": 28,
 	"pMaxY": 230,
-	"isPusher": true
+	"isPusher": true,
+	"effectSound": "spring"
 }
