@@ -6,7 +6,7 @@
 	"lives": 3,
 	"livesFrames": ["brick1_1","brick1_2","brick1_3"],
 	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
-	"livesCoins": [50,50,50],
+	"livesCoins": [0,0,0],
 	"livesHitSound": ["hit_block2","hit_block","hit_block"],
 	"livesEffect": true,
 	"hasDust": true,

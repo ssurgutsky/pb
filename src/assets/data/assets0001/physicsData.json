@@ -155,6 +155,28 @@
 		}
 	],
 
+	"monkey001shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [38,285, 38,7, 121,7, 121,285]
+		}
+	],
+
+	"monkey002shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [24,285, 24,5, 111,5, 111,285]
+		}
+	],
+
+	"monkey003shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [23,285, 23,13, 134,13, 134,285]
+		}
+	],
+
+
 	"board_frame1shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },

@@ -15,13 +15,14 @@
 		{
 			"name": "d1",
 			"isTask": true,
-			"template": "debris_atom1",
+			"template": "coin_golden",
+			"timeToLive": 2,
 			"lx": 0,
 			"ly": -30,
 			"vx": 0,
 			"vy": 0,
-			"sx": 0,
-			"sy": 0
+			"sx": 0.5,
+			"sy": 0.5
 		},
 		{
 			"name": "d2",

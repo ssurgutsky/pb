@@ -5,7 +5,7 @@
 	"lives": 5,
 	"livesFrames": ["pharao216x200_1","pharao216x200_1","pharao216x200_1","pharao216x200_2","pharao216x200_3"],
 	"livesBodyTypes": ["DYNAMIC","DYNAMIC","KINEMATIC","KINEMATIC","KINEMATIC"],
-	"livesCoins": [100,100,100,100,100],
+	"livesCoins": [0,0,0,0,0],
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao","hit_pharao"],
 	"livesEffect": true,
 	"hasDust": true,
@@ -26,14 +26,16 @@
 		{
 			"name": "d1",
 			"isTask": true,
-			"template": "debris_atom1",
+			"template": "coin_golden",
+			"timeToLive": 2,
 			"lx": 0,
 			"ly": -30,
 			"vx": 0,
 			"vy": 0,
-			"sx": 0,
-			"sy": 0
+			"sx": 0.5,
+			"sy": 0.5
 		},
+
 		{
 			"name": "d2",
 			"template": "debris_pharao2",

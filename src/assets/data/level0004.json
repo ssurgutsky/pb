@@ -30,7 +30,7 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 100,
+	"balls": 30,
 	"tasks": 1,
 	"objects": [
 		{
@@ -103,7 +103,7 @@
 		{
 			"name": "pharao",
 			"template": "pharao_medium",
-			"x": 300,
+			"x": 800,
 			"y": 500,
 			"layer": 2
 		}

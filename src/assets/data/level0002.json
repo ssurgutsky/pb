@@ -30,7 +30,7 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 100,
+	"balls": 30,
 	"tasks": 2,
 	"objects": [
 		{

@@ -21,6 +21,11 @@
 			{ "key": "sensor_teleport1", "url": "src/assets/data/sensor_teleport1.json" },
 
 			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
+			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
+			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
+			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
+			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
@@ -30,8 +35,14 @@
 			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
 			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
+			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
+			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
+
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
+			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
 			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
@@ -46,7 +57,9 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 100,
+	"balls": 30,
+	"tasks": 1,
+	"fails": 1,
 	"objects": [
 		{
 			"name": "bf1",
@@ -59,46 +72,58 @@
 		{
 			"name": "brick11",
 			"template": "brick1_3",
-			"x": 800,
-			"y": 919,
+			"x": 564,
+			"y": 901,
+			"angle": 90,
 			"layer": 2
 		},
 		{
 			"name": "brick12",
 			"template": "brick1_3",
-			"x": 800,
-			"y": 808,
+			"x": 1015,
+			"y": 901,
+			"angle": 90,
 			"layer": 2,
 			"isDisabled": false
 		},
 		{
 			"name": "brick13",
 			"template": "brick1_3",
-			"x": 800,
-			"y": 696,
+			"x": 1379,
+			"y": 901,
+			"angle": 90,
+			"layer": 2
+		},
+		                
+		{
+			"name": "brick21",
+			"template": "brick1_3",
+			"x": 557,
+			"y": 734,
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "brick22",
+			"template": "brick1_3",
+			"x": 1372,
+			"y": 734,
+			"angle": 90,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick23",
+			"template": "brick1_3",
+			"x": 550,
+			"y": 567,
+			"angle": 90,
 			"layer": 2
 		},
 
 		{
 			"name": "sensorGround",
 			"template": "sensor_ground"
-		},
-		{
-			"name": "ss1",
-			"template": "sensor_success1",
-			"x": 400,
-			"y": 930,
-			"layer": 2
-		},
-
-		{
-			"name": "st1",
-			"template": "sensor_teleport1",
-			"x": 1400,
-			"y": 270,
-			"tx": 1200,
-			"ty": 470,
-			"layer": 2
 		},
 
 		{
@@ -143,9 +168,39 @@
 		},
 
 		{
+			"name": "monkey001_light",
+			"template": "monkey001_light",
+			"x": 1009,
+			"y": 673,
+			"layer": 2
+		},
+		{
+			"name": "monkey002_light",
+			"template": "monkey002_light",
+			"x": 548,
+			"y": 339,
+			"layer": 2
+		},
+		{
+			"name": "monkey003_light",
+			"template": "monkey003_light",
+			"x": 1385,
+			"y": 506,
+			"layer": 2
+		},
+
+		{
+			"name": "pharao",
+			"template": "pharao_light",
+			"x": 794,
+			"y": 251,
+			"layer": 2
+		},
+
+		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 10,
+			"lives": 99,
 			"layer": 3
 		},
 		{
@@ -153,13 +208,6 @@
 			"template": "ball_big1",
 			"x": 1720,
 			"y": 710,
-			"layer": 2
-		},
-		{
-			"name": "pharao216x200",
-			"template": "pharao",
-			"x": 971,
-			"y": 200,
 			"layer": 2
 		}
 	]

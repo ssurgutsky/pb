@@ -2,46 +2,6 @@
 
 {
 	"filename": "Jewel01_000",
-	"frame": {"x":1,"y":259,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_001",
-	"frame": {"x":1,"y":441,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_002",
-	"frame": {"x":1,"y":623,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_003",
-	"frame": {"x":1,"y":805,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_004",
-	"frame": {"x":183,"y":259,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_005",
 	"frame": {"x":259,"y":1,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
@@ -49,39 +9,7 @@
 	"sourceSize": {"w":180,"h":180}
 },
 {
-	"filename": "Jewel01_006",
-	"frame": {"x":183,"y":441,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_007",
-	"frame": {"x":183,"y":623,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel01_008",
-	"frame": {"x":183,"y":805,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_000",
-	"frame": {"x":365,"y":183,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_001",
+	"filename": "Jewel01_001",
 	"frame": {"x":441,"y":1,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
@@ -89,39 +17,7 @@
 	"sourceSize": {"w":180,"h":180}
 },
 {
-	"filename": "Jewel02_002",
-	"frame": {"x":365,"y":365,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_003",
-	"frame": {"x":365,"y":547,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_004",
-	"frame": {"x":365,"y":729,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_005",
-	"frame": {"x":547,"y":183,"w":180,"h":180},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
-	"sourceSize": {"w":180,"h":180}
-},
-{
-	"filename": "Jewel02_006",
+	"filename": "Jewel01_002",
 	"frame": {"x":623,"y":1,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
@@ -129,15 +25,63 @@
 	"sourceSize": {"w":180,"h":180}
 },
 {
-	"filename": "Jewel02_007",
-	"frame": {"x":547,"y":365,"w":180,"h":180},
+	"filename": "Jewel01_003",
+	"frame": {"x":805,"y":1,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
 	"sourceSize": {"w":180,"h":180}
 },
 {
-	"filename": "Jewel02_008",
+	"filename": "Jewel01_004",
+	"frame": {"x":259,"y":183,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel01_005",
+	"frame": {"x":1,"y":259,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel01_006",
+	"frame": {"x":441,"y":183,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel01_007",
+	"frame": {"x":623,"y":183,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel01_008",
+	"frame": {"x":805,"y":183,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_000",
+	"frame": {"x":365,"y":547,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_001",
 	"frame": {"x":547,"y":547,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +89,47 @@
 	"sourceSize": {"w":180,"h":180}
 },
 {
-	"filename": "Jewel03_000",
+	"filename": "Jewel02_002",
+	"frame": {"x":729,"y":547,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_003",
+	"frame": {"x":911,"y":547,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_004",
+	"frame": {"x":183,"y":729,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_005",
+	"frame": {"x":1,"y":805,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_006",
+	"frame": {"x":365,"y":729,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel02_007",
 	"frame": {"x":547,"y":729,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
@@ -153,8 +137,24 @@
 	"sourceSize": {"w":180,"h":180}
 },
 {
+	"filename": "Jewel02_008",
+	"frame": {"x":729,"y":729,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel03_000",
+	"frame": {"x":911,"y":729,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
 	"filename": "Jewel03_001",
-	"frame": {"x":729,"y":183,"w":180,"h":180},
+	"frame": {"x":183,"y":911,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -162,7 +162,7 @@
 },
 {
 	"filename": "Jewel03_002",
-	"frame": {"x":805,"y":1,"w":180,"h":180},
+	"frame": {"x":1,"y":987,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -178,7 +178,7 @@
 },
 {
 	"filename": "Jewel03_004",
-	"frame": {"x":729,"y":365,"w":180,"h":180},
+	"frame": {"x":365,"y":911,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -186,7 +186,7 @@
 },
 {
 	"filename": "Jewel03_005",
-	"frame": {"x":729,"y":547,"w":180,"h":180},
+	"frame": {"x":547,"y":911,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -194,7 +194,7 @@
 },
 {
 	"filename": "Jewel03_006",
-	"frame": {"x":729,"y":729,"w":180,"h":180},
+	"frame": {"x":729,"y":911,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -202,7 +202,7 @@
 },
 {
 	"filename": "Jewel03_007",
-	"frame": {"x":911,"y":183,"w":180,"h":180},
+	"frame": {"x":911,"y":911,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -210,7 +210,7 @@
 },
 {
 	"filename": "Jewel03_008",
-	"frame": {"x":987,"y":1,"w":180,"h":180},
+	"frame": {"x":1,"y":1169,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -218,7 +218,7 @@
 },
 {
 	"filename": "Jewel04_000",
-	"frame": {"x":911,"y":365,"w":180,"h":180},
+	"frame": {"x":1,"y":1351,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -226,7 +226,7 @@
 },
 {
 	"filename": "Jewel04_001",
-	"frame": {"x":911,"y":547,"w":180,"h":180},
+	"frame": {"x":1,"y":1533,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -234,7 +234,7 @@
 },
 {
 	"filename": "Jewel04_002",
-	"frame": {"x":911,"y":729,"w":180,"h":180},
+	"frame": {"x":1,"y":1715,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -242,7 +242,7 @@
 },
 {
 	"filename": "Jewel04_003",
-	"frame": {"x":1093,"y":183,"w":180,"h":180},
+	"frame": {"x":183,"y":1093,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -250,7 +250,7 @@
 },
 {
 	"filename": "Jewel04_004",
-	"frame": {"x":1169,"y":1,"w":180,"h":180},
+	"frame": {"x":183,"y":1275,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -258,7 +258,7 @@
 },
 {
 	"filename": "Jewel04_005",
-	"frame": {"x":1093,"y":365,"w":180,"h":180},
+	"frame": {"x":183,"y":1457,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -266,7 +266,7 @@
 },
 {
 	"filename": "Jewel04_006",
-	"frame": {"x":1093,"y":547,"w":180,"h":180},
+	"frame": {"x":183,"y":1639,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -274,7 +274,7 @@
 },
 {
 	"filename": "Jewel04_007",
-	"frame": {"x":1093,"y":729,"w":180,"h":180},
+	"frame": {"x":183,"y":1821,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -282,7 +282,7 @@
 },
 {
 	"filename": "Jewel04_008",
-	"frame": {"x":1351,"y":1,"w":180,"h":180},
+	"frame": {"x":365,"y":1093,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -290,7 +290,7 @@
 },
 {
 	"filename": "Jewel05_000",
-	"frame": {"x":1533,"y":1,"w":180,"h":180},
+	"frame": {"x":547,"y":1093,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -298,7 +298,7 @@
 },
 {
 	"filename": "Jewel05_001",
-	"frame": {"x":1715,"y":1,"w":180,"h":180},
+	"frame": {"x":729,"y":1093,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -306,7 +306,7 @@
 },
 {
 	"filename": "Jewel05_002",
-	"frame": {"x":1275,"y":183,"w":180,"h":180},
+	"frame": {"x":911,"y":1093,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -314,7 +314,7 @@
 },
 {
 	"filename": "Jewel05_003",
-	"frame": {"x":1457,"y":183,"w":180,"h":180},
+	"frame": {"x":365,"y":1275,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -322,7 +322,7 @@
 },
 {
 	"filename": "Jewel05_004",
-	"frame": {"x":1639,"y":183,"w":180,"h":180},
+	"frame": {"x":365,"y":1457,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -330,7 +330,7 @@
 },
 {
 	"filename": "Jewel05_005",
-	"frame": {"x":1821,"y":183,"w":180,"h":180},
+	"frame": {"x":365,"y":1639,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -338,7 +338,7 @@
 },
 {
 	"filename": "Jewel05_006",
-	"frame": {"x":1275,"y":365,"w":180,"h":180},
+	"frame": {"x":365,"y":1821,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -346,7 +346,7 @@
 },
 {
 	"filename": "Jewel05_007",
-	"frame": {"x":1275,"y":547,"w":180,"h":180},
+	"frame": {"x":547,"y":1275,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -354,7 +354,7 @@
 },
 {
 	"filename": "Jewel05_008",
-	"frame": {"x":1275,"y":729,"w":180,"h":180},
+	"frame": {"x":729,"y":1275,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -362,7 +362,7 @@
 },
 {
 	"filename": "Jewel06_000",
-	"frame": {"x":1457,"y":365,"w":180,"h":180},
+	"frame": {"x":911,"y":1275,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -370,7 +370,7 @@
 },
 {
 	"filename": "Jewel06_001",
-	"frame": {"x":1639,"y":365,"w":180,"h":180},
+	"frame": {"x":547,"y":1457,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -378,7 +378,7 @@
 },
 {
 	"filename": "Jewel06_002",
-	"frame": {"x":1821,"y":365,"w":180,"h":180},
+	"frame": {"x":547,"y":1639,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -386,7 +386,7 @@
 },
 {
 	"filename": "Jewel06_003",
-	"frame": {"x":1457,"y":547,"w":180,"h":180},
+	"frame": {"x":547,"y":1821,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -394,7 +394,7 @@
 },
 {
 	"filename": "Jewel06_004",
-	"frame": {"x":1457,"y":729,"w":180,"h":180},
+	"frame": {"x":729,"y":1457,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -402,7 +402,7 @@
 },
 {
 	"filename": "Jewel06_005",
-	"frame": {"x":1639,"y":547,"w":180,"h":180},
+	"frame": {"x":911,"y":1457,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -410,7 +410,7 @@
 },
 {
 	"filename": "Jewel06_006",
-	"frame": {"x":1821,"y":547,"w":180,"h":180},
+	"frame": {"x":729,"y":1639,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -418,7 +418,7 @@
 },
 {
 	"filename": "Jewel06_007",
-	"frame": {"x":1639,"y":729,"w":180,"h":180},
+	"frame": {"x":729,"y":1821,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -426,7 +426,87 @@
 },
 {
 	"filename": "Jewel06_008",
-	"frame": {"x":1821,"y":729,"w":180,"h":180},
+	"frame": {"x":911,"y":1639,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel020_000",
+	"frame": {"x":183,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel020_001",
+	"frame": {"x":1,"y":441,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel020_002",
+	"frame": {"x":365,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel020_003",
+	"frame": {"x":547,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel020_004",
+	"frame": {"x":183,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel021_000",
+	"frame": {"x":729,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel021_001",
+	"frame": {"x":911,"y":365,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel021_002",
+	"frame": {"x":183,"y":547,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel021_003",
+	"frame": {"x":1,"y":623,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "Jewel021_004",
+	"frame": {"x":729,"y":365,"w":180,"h":180},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
@@ -437,8 +517,8 @@
 	"version": "1.0",
 	"image": "animations.png",
 	"format": "RGBA8888",
-	"size": {"w":2002,"h":986},
+	"size": {"w":1092,"h":2002},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:c1fe482ecd1c4f044468e32a2f5b1a3d:bf11711264bcd8b71bff75df5f396fda:bb447c4d1c842b0fc77df58e34d69c1d$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6cae5c981271dd192a9e6a5edd50241b:b083bd9e94f3414009d53feb00479519:bb447c4d1c842b0fc77df58e34d69c1d$"
 }
 }
