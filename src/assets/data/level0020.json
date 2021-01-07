@@ -1,10 +1,10 @@
 {
 	"preload": {
 		"ATLAS_JSON_ARRAYS": [
-			{ "key": "assets0002", "url": "src/assets/images/assets0002" }
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0010.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -17,30 +17,49 @@
 
 			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
-			{ "key": "debris_atom1", "url": "src/assets/data/assets0002/debris_atom1.json" },
+			{ "key": "sensor_success1", "url": "src/assets/data/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/sensor_teleport1.json" },
 
-			{ "key": "dude_head002", "url": "src/assets/data/assets0002/dude_head002.json" },
-			{ "key": "dude_head002_1", "url": "src/assets/data/assets0002/dude_head002_1.json" },
-			{ "key": "dude_head002_2", "url": "src/assets/data/assets0002/dude_head002_2.json" },
+			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
+			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
+			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
+			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
+			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
 
+			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
+			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
+			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
+			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
+			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
+			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
-			{ "key": "dude_body002", "url": "src/assets/data/assets0002/dude_body002.json" },
-			{ "key": "dude_body002_1", "url": "src/assets/data/assets0002/dude_body002_1.json" },
-			{ "key": "dude_body002_2", "url": "src/assets/data/assets0002/dude_body002_2.json" },
+			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
+			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
 
-			{ "key": "dude_debris1", "url": "src/assets/data/assets0002/dude_debris1.json" },
-			{ "key": "dude_debris2", "url": "src/assets/data/assets0002/dude_debris2.json" },
-			{ "key": "dude_debris3", "url": "src/assets/data/assets0002/dude_debris3.json" },
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
-			{ "key": "beam1", "url": "src/assets/data/assets0002/beam1.json" }
+			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
 		],
 		"PHYSICS": [
-			{ "key": "physicsData", "url": "src/assets/data/assets0002/physicsData.json" }
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
 		]
 	}, 
 	"bg": "bg",
 	"balls": 30,
-	"tasks": 4,
+	"tasks": 1,
+	"fails": 1,
 	"objects": [
 		{
 			"name": "bf1",
@@ -51,10 +70,60 @@
 		},
 
 		{
+			"name": "brick11",
+			"template": "brick1_3",
+			"x": 274,
+			"y": 900,
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "brick12",
+			"template": "brick1_3",
+			"x": 268,
+			"y": 734,
+			"angle": 90,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick13",
+			"template": "brick1_3",
+			"x": 267,
+			"y": 567,
+			"angle": 90,
+			"layer": 2
+		},
+
+		{
+			"name": "brick21",
+			"template": "brick1_3",
+			"x": 474,
+			"y": 900,
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "brick22",
+			"template": "brick1_3",
+			"x": 468,
+			"y": 734,
+			"angle": 90,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick23",
+			"template": "brick1_3",
+			"x": 467,
+			"y": 567,
+			"angle": 90,
+			"layer": 2
+		},
+
+		{
 			"name": "sensorGround",
-			"template": "sensor_ground",
-			"x": 960,
-			"y": 1050
+			"template": "sensor_ground"
 		},
 
 		{
@@ -65,7 +134,7 @@
 			"layer": 3
 		},
 		{
-			"name": "pSideLeft",
+			"name": "sideBlock",
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
@@ -75,7 +144,7 @@
 			"isPusher": true
 		},
 		{
-			"name": "pSideRight",
+			"name": "sideBlock2",
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
@@ -99,9 +168,40 @@
 		},
 
 		{
+			"name": "monkey001_light",
+			"template": "monkey001_light",
+			"x": 500,
+			"y": 335,
+			"layer": 2
+		},
+		{
+			"name": "monkey002_light",
+			"template": "monkey002_light",
+			"x": 1046,
+			"y": 840,
+			"layer": 2
+		},
+		{
+			"name": "monkey003_light",
+			"template": "monkey003_light",
+			"x": 320,
+			"y": 335,
+			"angle": 0,
+			"layer": 2
+		},
+
+		{
+			"name": "pharao",
+			"template": "pharao_light",
+			"x": 1110,
+			"y": 244,
+			"layer": 2
+		},
+
+		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 99999,
+			"lives": 99,
 			"layer": 3
 		},
 		{
@@ -110,21 +210,6 @@
 			"x": 1720,
 			"y": 710,
 			"layer": 2
-		},
-		{
-			"name": "dude_head002",
-			"template": "dude_head002",
-			"x": 908,
-			"y": 690,
-			"layer": 2
-		},
-		{
-			"name": "dude_body002",
-			"template": "dude_body002",
-			"x": 906,
-			"y": 900,
-			"layer": 2
 		}
-
 	]
 }
