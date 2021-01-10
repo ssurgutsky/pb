@@ -1,0 +1,56 @@
+{
+	"name": "spider",
+	"shape": "POLYGON",
+	"shapeName": "spider001shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"lives": 3,
+	"frame": "spider01",
+	"livesEffect": true,
+	"bodyMass": 5,
+	"minHitImpulse": 1000,
+	"animations": {
+		"idle": {
+			"frameName": "spider0", 
+			"framesCount": 11, 
+			"frameRate": 12,
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+	"tweens": {
+		"blink": {
+			"delay": 6,
+			"firstDelay":0.1,
+			"timeline": [
+				{"toBody": {"y": 650, "x": 1500,"rotation": -1.57}, "initX": 450, "initY": 250, "duration": 3000},
+				{"toBody": {"y": 250, "x": 450, "rotation": -0.8}, "duration": 3000}
+			]
+		}
+	},
+	"debrises": [
+		{
+			"name": "d1",
+			"isTask": true,
+			"template": "coin_golden",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5
+		},
+
+		{
+			"name": "d1",
+			"template": "spider_dead",
+			"lx": 0,
+			"ly": 60,
+			"vx": 0,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2
+		}
+	]
+}

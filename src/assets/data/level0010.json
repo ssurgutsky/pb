@@ -20,6 +20,11 @@
 			{ "key": "sensor_success1", "url": "src/assets/data/sensor_success1.json" },
 			{ "key": "sensor_teleport1", "url": "src/assets/data/sensor_teleport1.json" },
 
+			{ "key": "pharao_boss", "url": "src/assets/data/assets0001/pharao_boss.json" },
+
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
@@ -32,7 +37,7 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 30,
+	"balls": 20,
 	"tasks": 1,
 	"objects": [
 		{
@@ -90,9 +95,17 @@
 		},
 
 		{
+			"name": "pharao",
+			"template": "pharao_boss",
+			"x": 800,
+			"y": 250,
+			"layer": 2
+		},
+
+		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 99,
+			"lives": 19,
 			"layer": 3
 		},
 		{

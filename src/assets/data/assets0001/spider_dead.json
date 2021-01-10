@@ -1,0 +1,9 @@
+{
+	"name": "spider_dead",
+	"shape": "POLYGON",
+	"shapeName": "spider_dead001shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "spider_dead",
+	"bodyMass": 5
+}

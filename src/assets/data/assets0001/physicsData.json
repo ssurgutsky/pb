@@ -177,6 +177,19 @@
 	],
 
 
+	"spider001shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [60, 120, 60,20, 120,20, 120,120]
+		}
+	],
+	"spider_dead001shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [22, 117, 23,80, 125,80, 125,117]
+		}
+	],
+
 	"board_frame1shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },

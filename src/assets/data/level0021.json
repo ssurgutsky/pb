@@ -17,13 +17,21 @@
 
 			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
-			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+			{ "key": "sensor_success1", "url": "src/assets/data/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/sensor_teleport1.json" },
 
-			{ "key": "pharao_medium", "url": "src/assets/data/assets0001/pharao_medium.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" }
+			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
+			{ "key": "spider_dead", "url": "src/assets/data/assets0001/spider_dead.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -54,7 +62,7 @@
 			"layer": 3
 		},
 		{
-			"name": "pSideLeft",
+			"name": "sideBlock",
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
@@ -64,7 +72,7 @@
 			"isPusher": true
 		},
 		{
-			"name": "pSideRight",
+			"name": "sideBlock2",
 			"bodyType": "KINEMATIC",
 			"atlas": "common",
 			"frame": "block50x200",
@@ -88,9 +96,20 @@
 		},
 
 		{
+			"name": "spider",
+			"template": "spider",
+			"lives": 10,
+			"x": 300,
+			"y": 550,
+			"sx": 2,
+			"sy": 2,
+			"layer": 2
+		},
+
+		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 99999,
+			"lives": 19,
 			"layer": 3
 		},
 		{
@@ -98,13 +117,6 @@
 			"template": "ball_big1",
 			"x": 1720,
 			"y": 710,
-			"layer": 2
-		},
-		{
-			"name": "pharao",
-			"template": "pharao_medium",
-			"x": 800,
-			"y": 500,
 			"layer": 2
 		}
 	]

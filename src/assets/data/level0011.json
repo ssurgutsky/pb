@@ -16,6 +16,7 @@
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
 
 			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+			{ "key": "tutorial_hand11", "url": "src/assets/data/tutorial_hand11.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
@@ -57,7 +58,7 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 30,
+	"balls": 20,
 	"tasks": 1,
 	"fails": 1,
 	"objects": [
@@ -174,7 +175,7 @@
 		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 99,
+			"lives": 19,
 			"layer": 3
 		},
 		{
@@ -183,6 +184,14 @@
 			"x": 1720,
 			"y": 710,
 			"layer": 2
+		},
+
+		{
+			"name": "th11",
+			"template": "tutorial_hand11",
+			"x": 1017,
+			"y": 520,
+			"layer": 3
 		}
 	]
 }
