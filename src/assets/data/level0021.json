@@ -26,6 +26,8 @@
 			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
 			{ "key": "spider_dead", "url": "src/assets/data/assets0001/spider_dead.json" },
 
+			{ "key": "spider2", "url": "src/assets/data/assets0001/spider2.json" },
+
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
@@ -97,10 +99,10 @@
 
 		{
 			"name": "spider",
-			"template": "spider",
+			"template": "spider2",
 			"lives": 10,
 			"x": 300,
-			"y": 550,
+			"y": -300,
 			"sx": 2,
 			"sy": 2,
 			"layer": 2
