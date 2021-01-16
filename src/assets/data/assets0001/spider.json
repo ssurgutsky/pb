@@ -9,25 +9,84 @@
 	"livesEffect": true,
 	"bodyMass": 5,
 	"minHitImpulse": 1000,
+	"hitSound": "hit_spider",
 	"animations": {
 		"idle": {
 			"frameName": "spider0", 
-			"framesCount": 11, 
+			"framesCount": 1, 
 			"frameRate": 12,
 			"isStart": true,
+			"isLoop": false
+		},
+		"move": {
+			"frameName": "spider0", 
+			"framesCount": 11, 
+			"frameRate": 12,
+			"isStart": false,
 			"isLoop": true
 		}
 	},
-	"tweens": {
-		"blink": {
-			"delay": 6,
-			"firstDelay":0.1,
-			"timeline": [
-				{"toBody": {"y": 650, "x": 1500,"rotation": -1.57}, "initX": 450, "initY": 250, "duration": 3000},
-				{"toBody": {"y": 250, "x": 450, "rotation": -0.8}, "duration": 3000}
-			]
-		}
+
+	"AI": {
+		"type": "spider",
+
+		"firstIdleDuration": 3500,
+		"idleDuration": 1000,
+		"idleSound": "idle_spider",
+
+		"firstMoveDuration": 5000,
+		"firstXY": [300, 800],
+		"XY": [[450,250], [900,250], [1600,650], [900, 650], [300,800]],
+		"moveDuration": 3000,
+		"moveProbability": 0.6,
+		"rotationDuration": 300,
+		"rotationDelta": -180,
+		"moveSound": "move_spider",
+
+		"produceProbability": 0.2,
+		"produceSound": "hit_spider_web",
+		"produce": [
+			{
+				"name": "swb",
+				"template": "spider_web_big",
+				"timeToLive": 20,
+				"lx": 0,
+				"ly": -30,
+				"vx": 0,
+				"vy": 0,
+				"sx": 1.5,
+				"sy": 1.5
+			}
+		]
 	},
+
+	"hitDebrises": [
+		{
+			"name": "sd1",
+			"template": "spider_debris1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "sd2",
+			"template": "spider_debris2",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "sd3",
+			"template": "spider_debris3",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
 	"debrises": [
 		{
 			"name": "d1",
@@ -46,7 +105,7 @@
 			"name": "d1",
 			"template": "spider_dead",
 			"lx": 0,
-			"ly": 60,
+			"ly": 0,
 			"vx": 0,
 			"vy": 0,
 			"sx": 2,

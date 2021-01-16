@@ -11,6 +11,26 @@
 	"hasDust": true,
 	"bodyMass": 5,
 	"minHitImpulse": 1000,
+
+	"hitDebrises": [
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
 	"debrises": [
 		{
 			"name": "jewel1",

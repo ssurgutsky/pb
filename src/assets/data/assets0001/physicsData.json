@@ -189,6 +189,13 @@
 			"shape": [22, 117, 23,80, 125,80, 125,117]
 		}
 	],
+	"spider_web001shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [100,215, 100,30, 180,30, 180,215]
+		}
+	],
+
 
 	"board_frame1shape": [
 		{

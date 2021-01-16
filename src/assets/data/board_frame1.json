@@ -3,5 +3,6 @@
 	"bodyType": "STATIC",
 	"shape": "POLYGON",
 	"shapeName": "board_frame1shape",
-	"isBoardFrame": true
+	"isBoardFrame": true,
+	"bodyMass": 5
 }
