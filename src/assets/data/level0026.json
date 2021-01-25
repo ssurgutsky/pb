@@ -25,7 +25,7 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "spider_web_light", "url": "src/assets/data/assets0001/spider_web_light.json" },
-			{ "key": "spider_web_medium", "url": "src/assets/data/assets0001/spider_web_medium.json" },
+			{ "key": "spider_web_monkey", "url": "src/assets/data/assets0001/spider_web_monkey.json" },
 			{ "key": "spider_web_debris1", "url": "src/assets/data/assets0001/spider_web_debris1.json" },
 			{ "key": "spider_web_debris2", "url": "src/assets/data/assets0001/spider_web_debris2.json" },
 			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
@@ -105,8 +105,8 @@
 			"layer": 2
 		},
 		{
-			"name": "swl1",
-			"template": "spider_web_medium",
+			"name": "swm1",
+			"template": "spider_web_monkey",
 			"x": 688,
 			"y": 483,
 			"layer": 2

@@ -25,7 +25,7 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "spider_web_light", "url": "src/assets/data/assets0001/spider_web_light.json" },
-			{ "key": "spider_web_medium", "url": "src/assets/data/assets0001/spider_web_medium.json" },
+			{ "key": "spider_web_monkey", "url": "src/assets/data/assets0001/spider_web_monkey.json" },
 			{ "key": "spider_web_debris1", "url": "src/assets/data/assets0001/spider_web_debris1.json" },
 			{ "key": "spider_web_debris2", "url": "src/assets/data/assets0001/spider_web_debris2.json" },
 			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
@@ -47,7 +47,9 @@
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
 			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
 			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
+
+			{ "key": "tutorial_hand28", "url": "src/assets/data/tutorial_hand28.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -98,8 +100,8 @@
 		},
 
 		{
-			"name": "swl1",
-			"template": "spider_web_medium",
+			"name": "swm1",
+			"template": "spider_web_monkey",
 			"x": 488,
 			"y": 740,
 			"layer": 2
@@ -113,8 +115,8 @@
 			"layer": 2
 		},
 		{
-			"name": "swl2",
-			"template": "spider_web_medium",
+			"name": "swm2",
+			"template": "spider_web_monkey",
 			"x": 488,
 			"y": 483,
 			"layer": 2
@@ -204,6 +206,14 @@
 			"x": 1720,
 			"y": 710,
 			"layer": 2
+		},
+		{
+			"name": "th1",
+			"template": "tutorial_hand28",
+			"x": 950,
+			"y": 670,
+			"layer": 3
 		}
+
 	]
 }

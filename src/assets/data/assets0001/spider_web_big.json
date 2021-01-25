@@ -8,6 +8,8 @@
 	"bodyMass": 0.1,
 
 	"isSensor": true,
+
+
 	"lives": 1,
 	"hitSound": "hit_spider_web",
 	"sx": 1.5,

@@ -7,7 +7,7 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0001.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/music3.mp3" },
 			{ "key": "idle_spider", "url": "src/assets/audio/sound/idle_spider.mp3" },
 			{ "key": "move_spider", "url": "src/assets/audio/sound/move_spider.mp3" },
 			{ "key": "hit_spider", "url": "src/assets/audio/sound/hit_spider.mp3" },
@@ -27,7 +27,7 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
+			{ "key": "spider", "url": "src/assets/data/assets0001/spider0.json" },
 			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
 			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
 			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },

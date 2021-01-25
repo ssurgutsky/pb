@@ -30,12 +30,10 @@
 	"AI": {
 		"type": "spider",
 
-		"firstIdleDuration": 3500,
 		"idleDuration": 1000,
 		"idleSound": "idle_spider",
 
 		"firstMoveDuration": 5000,
-		"firstXY": [300, 800],
 		"XY": [[450,250], [900,250], [1600,650], [900, 650], [300,800]],
 		"moveDuration": 3000,
 		"moveProbability": 0.6,
@@ -49,6 +47,7 @@
 			{
 				"name": "swb",
 				"template": "spider_web_big",
+				"isBallSensor": true,
 				"timeToLive": 20,
 				"lx": 0,
 				"ly": -30,

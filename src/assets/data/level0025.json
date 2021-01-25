@@ -75,7 +75,7 @@
 		{
 			"name": "brick13",
 			"template": "brick1_3",
-			"x": 1000,
+			"x": 950,
 			"y": 951,
 			"angle": 90,
 			"layer": 2
@@ -83,7 +83,7 @@
 		{
 			"name": "brick12",
 			"template": "brick1_3",
-			"x": 990,
+			"x": 940,
 			"y": 784,
 			"angle": 90,
 			"layer": 2
@@ -91,7 +91,7 @@
 		{
 			"name": "brick11",
 			"template": "brick1_3",
-			"x": 980,
+			"x": 930,
 			"y": 617,
 			"angle": 90,
 			"layer": 2
@@ -115,14 +115,14 @@
 		{
 			"name": "monkey1",
 			"template": "monkey001_light",
-			"x": 998,
+			"x": 948,
 			"y": 389,
 			"layer": 2
 		},
 		{
 			"name": "swl4",
 			"template": "spider_web_light",
-			"x": 866,
+			"x": 826,
 			"y": 875,
 			"layer": 2
 		},

@@ -7,7 +7,11 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0001.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music3.mp3" },
+			{ "key": "idle_spider", "url": "src/assets/audio/sound/idle_spider.mp3" },
+			{ "key": "move_spider", "url": "src/assets/audio/sound/move_spider.mp3" },
+			{ "key": "hit_spider", "url": "src/assets/audio/sound/hit_spider.mp3" },
+			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
 		],
 		"JSON": [
 			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
@@ -24,8 +28,16 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
+			{ "key": "spider_small", "url": "src/assets/data/assets0001/spider_small.json" },
+			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
+			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
+			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },
 			{ "key": "spider_dead", "url": "src/assets/data/assets0001/spider_dead.json" },
 			{ "key": "spider_web", "url": "src/assets/data/assets0001/spider_web.json" },
+			{ "key": "spider_web_small", "url": "src/assets/data/assets0001/spider_web_small.json" },
+			{ "key": "spider_web_big", "url": "src/assets/data/assets0001/spider_web_big.json" },
+			{ "key": "spider_web_light", "url": "src/assets/data/assets0001/spider_web_light.json" },
+			{ "key": "spider_web_light_big", "url": "src/assets/data/assets0001/spider_web_light_big.json" },
 			{ "key": "spider_web_debris1", "url": "src/assets/data/assets0001/spider_web_debris1.json" },
 			{ "key": "spider_web_debris2", "url": "src/assets/data/assets0001/spider_web_debris2.json" },
 			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
@@ -50,8 +62,8 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 20,
-	"tasks": 1,
+	"balls": 30,
+	"tasks": 2,
 	"objects": [
 		{
 			"name": "bf1",
@@ -68,14 +80,25 @@
 			"y": 1050
 		},
 
+
 		{
-			"name": "spider",
-			"template": "spider",
-			"lives": 5,
+			"name": "spider_small1",
+			"template": "spider_small",
+			"lives": 3,
 			"x": 900,
 			"y": -300,
-			"sx": 2,
-			"sy": 2,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small2",
+			"template": "spider_small",
+			"lives": 3,
+			"x": 1900,
+			"y": -300,
+			"sx": 1,
+			"sy": 1,
 			"layer": 2
 		},
 
@@ -148,7 +171,7 @@
 		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 19,
+			"lives": 99,
 			"layer": 3
 		},
 		{

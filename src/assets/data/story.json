@@ -1,0 +1,13 @@
+[
+	{"id": 1, "maxStoryId": 9, "levelNo": 1, "text": "On the edge of nowhere..."},
+	{"id": 2, "maxStoryId": 9, "levelNo": 1, "text": "In the strong castle lived people of Apolacho."},
+	{"id": 3, "maxStoryId": 9, "levelNo": 1, "text": "They were very smart and skilled being advanced of their time."},
+	{"id": 4, "maxStoryId": 9, "levelNo": 1, "text": "Leaders of other nations arrived to them to ask their wisdom."},
+	{"id": 5, "maxStoryId": 9, "levelNo": 1, "text": "And share their knowledges."},
+	{"id": 6, "maxStoryId": 9, "levelNo": 1, "text": "But one day..."},
+	{"id": 7, "maxStoryId": 9, "levelNo": 1, "text": "... they all.. all people of Apolacho... just..."},
+	{"id": 8, "maxStoryId": 9, "levelNo": 1, "text": "... just have disappeared somewhere."},
+	{"id": 9, "maxStoryId": 9, "levelNo": 1, "text": "And now you must investigate what has happened with them\nby researching their artefacts. Good luck!"},
+
+	{"id": 10, "maxStoryId": 10, "levelNo": 2, "text": "Great! You have found your first artefact!"}
+]
