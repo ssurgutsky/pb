@@ -53,7 +53,7 @@
 	}, 
 	"bg": "bg",
 	"balls": 20,
-	"tasks": 2,
+	"tasks": 1,
 	"objects": [
 		{
 			"name": "bf1",
@@ -174,7 +174,8 @@
 		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 19,
+			"lives": 40,
+			"livesEffect": true,
 			"layer": 3
 		},
 		{

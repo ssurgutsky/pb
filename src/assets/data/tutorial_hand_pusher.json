@@ -1,5 +1,5 @@
 {
-	"name": "tutorialHand1",
+	"name": "tutorialHandPusher1",
 	"bodyType": "STATIC",
 	"atlas": "tutorials",
 	"frame": "tutorial-hand",

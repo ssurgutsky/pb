@@ -1,13 +1,133 @@
 [
-	{"id": 1, "maxStoryId": 9, "levelNo": 1, "text": "On the edge of nowhere..."},
-	{"id": 2, "maxStoryId": 9, "levelNo": 1, "text": "In the strong castle lived people of Apolacho."},
-	{"id": 3, "maxStoryId": 9, "levelNo": 1, "text": "They were very smart and skilled being advanced of their time."},
-	{"id": 4, "maxStoryId": 9, "levelNo": 1, "text": "Leaders of other nations arrived to them to ask their wisdom."},
-	{"id": 5, "maxStoryId": 9, "levelNo": 1, "text": "And share their knowledges."},
-	{"id": 6, "maxStoryId": 9, "levelNo": 1, "text": "But one day..."},
-	{"id": 7, "maxStoryId": 9, "levelNo": 1, "text": "... they all.. all people of Apolacho... just..."},
-	{"id": 8, "maxStoryId": 9, "levelNo": 1, "text": "... just have disappeared somewhere."},
-	{"id": 9, "maxStoryId": 9, "levelNo": 1, "text": "And now you must investigate what has happened with them\nby researching their artefacts. Good luck!"},
+	{
+		"id": 1,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "On the edge of nowhere..."
+	},
+	{
+		"id": 2,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "In the old Fortress lived people of Apolacho."
+	},
+	{
+		"id": 3,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "They were very smart and skilled being advanced of their time."
+	},
+	{
+		"id": 4,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "Heads of other nations arrived to them to ask their wisdom.",
+		"text2": "And share their knowledges."
+	},
+	{
+		"id": 5,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "But one day..."
+	},
+	{
+		"id": 6,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "... they all.. all people of Apolacho... just..."
+	},
+	{
+		"id": 7,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "... just disappeared somewhere."
+	},
+	{
+		"id": 8,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "We must investigate what happened with Apolacho people!\nLet's walk around the Fortress and find a way to enter."
+	},
+	{
+		"id": 9,
+		"maxStoryId": 9,
+		"levelNo": 1,
+		"text1": "Hey, look - strange heads appeared on walls.\nWe never seen them here before!",
+		"text2": "Hit them all to clear the walls.\nMaybe we can find some artefacts inside."
+	},
 
-	{"id": 10, "maxStoryId": 10, "levelNo": 2, "text": "Great! You have found your first artefact!"}
+	{
+		"id": 10,
+		"maxStoryId": 10,
+		"levelNo": 1,
+		"isAfterLevel": true,
+		"text1": "Awesome! You have found your first artefact!",
+		"text2": "It's a Silver Lion coin. Let's look for more artefacts!"
+	},
+	{
+		"id": 11,
+		"maxStoryId": 11,
+		"levelNo": 3,
+		"isAfterLevel": true,
+		"text1": "Amazing! You have got silver coins!",
+		"text2": "But look - what's next? Oh wow!\nThis head is bigger and stronger than all before!"
+	},
+	{
+		"id": 12,
+		"maxStoryId": 12,
+		"levelNo": 4,
+		"isAfterLevel": true,
+		"text1": "That was definitely harder...",
+		"text2": "But now you have got an extra ball!"
+	},
+	{
+		"id": 13,
+		"maxStoryId": 13,
+		"levelNo": 5,
+		"isAfterLevel": true,
+		"text1": "Ohh... nothing was inside. Sometimes it happens.",
+		"text2": "Let's look ahead! I see some bricks..."
+	},
+	{
+		"id": 14,
+		"maxStoryId": 14,
+		"levelNo": 6,
+		"isAfterLevel": true,
+		"text1": "Wow! It's a Golden Lion coin!",
+		"text2": "Seems somebody will be reach today!"
+	},
+	{
+		"id": 15,
+		"maxStoryId": 15,
+		"levelNo": 9,
+		"isAfterLevel": true,
+		"text1": "Wonderful! You are the best!",
+		"text2": "But look further - is it a ghost of Apolacho? Let's check!"
+	},
+	{
+		"id": 16,
+		"maxStoryId": 16,
+		"levelNo": 10,
+		"isAfterLevel": true,
+		"text1": "Awesome! You beaten him! Ghost dropped something...",
+		"text2": "It's a secret key! And what door it could open?"
+	},
+	{
+		"id": 17,
+		"maxStoryId": 17,
+		"levelNo": 11,
+		"text1": "Hey, here is that door to the inner Fortres yard.",
+		"text2": "Okay, please open the door by the key!"
+	},
+	{
+		"id": 18,
+		"maxStoryId": 18,
+		"levelNo": 12,
+		"text1": "We have entered. Do you see that?",
+		"text2": "Here are monkeys. And seems they are scared!\nPlease do not touch them!"
+	}
+
+
+
+
 ]

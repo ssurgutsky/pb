@@ -1,5 +1,5 @@
 {
-	"name": "red_cross",
+	"name": "tutorial_red_cross",
 	"bodyType": "STATIC",
 	"atlas": "tutorials",
 	"frame": "red_cross",

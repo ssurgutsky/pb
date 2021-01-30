@@ -49,7 +49,7 @@
 			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
 			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
 
-			{ "key": "tutorial_hand28", "url": "src/assets/data/tutorial_hand28.json" }
+			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -208,10 +208,11 @@
 			"layer": 2
 		},
 		{
-			"name": "th1",
-			"template": "tutorial_hand28",
+			"name": "thp1",
+			"template": "tutorial_hand_pointing",
 			"x": 950,
 			"y": 670,
+			"angle": 0,
 			"layer": 3
 		}
 

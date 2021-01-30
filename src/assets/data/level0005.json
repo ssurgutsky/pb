@@ -19,7 +19,7 @@
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
-			{ "key": "pharao_medium", "url": "src/assets/data/assets0001/pharao_medium.json" },
+			{ "key": "pharao_medium_empty", "url": "src/assets/data/assets0001/pharao_medium_empty.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
@@ -110,14 +110,14 @@
 
 		{
 			"name": "pharao1",
-			"template": "pharao_medium",
+			"template": "pharao_medium_empty",
 			"x": 624,
 			"y": 576,
 			"layer": 2
 		},
 		{
 			"name": "pharao2",
-			"template": "pharao_medium",
+			"template": "pharao_medium_empty",
 			"x": 1024,
 			"y": 576,
 			"layer": 2

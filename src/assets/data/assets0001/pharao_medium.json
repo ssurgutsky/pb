@@ -35,16 +35,19 @@
 
 	"debrises": [
 		{
-			"name": "d1",
+			"name": "b1",
 			"isTask": true,
-			"template": "coin_golden",
-			"timeToLive": 2,
+			"template": "ball_big1",
+			"bodyMass": 1,
+			"impulseMultiplier": 3,
+			"isBall": false,
+			"isRespawnable": false,
 			"lx": 0,
 			"ly": -30,
 			"vx": 0,
 			"vy": 0,
-			"sx": 0.5,
-			"sy": 0.5
+			"sx": 1.5,
+			"sy": 1.5
 		},
 		{
 			"name": "d2",

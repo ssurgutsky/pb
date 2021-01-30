@@ -1,4 +1,11 @@
 {
+	"key_goldenshape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [20,20, 180,20, 180,68, 20,68]
+		}
+	],
+
 	"pusher1shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
@@ -87,6 +94,28 @@
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
 			"shape": [11,13, 59,6, 168,62, 135,22, 21,82]
+		}
+	],
+
+	"door1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,478, 0,50, 150,50, 150,478]
+		},
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [150,200, 150,50, 200,50, 200,200]
+		},
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [150,478, 150,300, 200,300, 200,478]
+		}
+	],
+
+	"keyhole1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [40,140, 40,20, 115,20, 115,140]
 		}
 	],
 

@@ -89,7 +89,7 @@
 	"debrises": [
 		{
 			"name": "d1",
-			"template": "coin_golden",
+			"template": "coin_silver",
 			"timeToLive": 2,
 			"lx": 0,
 			"ly": -30,

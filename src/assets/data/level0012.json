@@ -35,9 +35,7 @@
 			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
 			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
-			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
 			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
-			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
@@ -50,7 +48,11 @@
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
 			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
 			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+			{ "key": "tutorial_red_cross", "url": "src/assets/data/tutorial_red_cross.json" },
+			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -70,7 +72,7 @@
 		},
 
 		{
-			"name": "brick11",
+			"name": "brick13",
 			"template": "brick1_3",
 			"x": 564,
 			"y": 901,
@@ -80,40 +82,13 @@
 		{
 			"name": "brick12",
 			"template": "brick1_3",
-			"x": 820,
-			"y": 901,
-			"angle": 90,
-			"layer": 2,
-			"isDisabled": false
-		},
-		{
-			"name": "brick13",
-			"template": "brick1_3",
-			"x": 813,
-			"y": 734,
-			"angle": 90,
-			"layer": 2
-		},
-		                
-		{
-			"name": "brick21",
-			"template": "brick1_3",
 			"x": 557,
 			"y": 734,
 			"angle": 90,
 			"layer": 2
 		},
 		{
-			"name": "brick22",
-			"template": "brick1_3",
-			"x": 800,
-			"y": 566,
-			"angle": 90,
-			"layer": 2,
-			"isDisabled": false
-		},
-		{
-			"name": "brick23",
+			"name": "brick11",
 			"template": "brick1_3",
 			"x": 550,
 			"y": 567,
@@ -168,14 +143,6 @@
 		},
 
 		{
-			"name": "monkey001_light",
-			"template": "monkey001_light",
-			"x": 780,
-			"y": 339,
-			"layer": 2
-		},
-
-		{
 			"name": "monkey002_light",
 			"template": "monkey002_light",
 			"x": 548,
@@ -186,9 +153,24 @@
 		{
 			"name": "pharao",
 			"template": "pharao_light",
-			"x": 1217,
+			"x": 1017,
 			"y": 520,
 			"layer": 2
+		},
+
+		{
+			"name": "h1",
+			"template": "hint1",
+			"x": 1017,
+			"y": 520,
+			"layer": 3
+		},
+		{
+			"name": "h2",
+			"template": "hint1",
+			"x": 1720,
+			"y": 700,
+			"layer": 3
 		},
 
 		{
@@ -203,6 +185,23 @@
 			"x": 1720,
 			"y": 710,
 			"layer": 2
+		},
+
+		{
+			"name": "rc1",
+			"template": "tutorial_red_cross11",
+			"x": 550,
+			"y": 300,
+			"layer": 3
+		},
+		{
+			"name": "thp1",
+			"template": "tutorial_hand_pointing",
+			"x": 1250,
+			"y": 500,
+			"angle": -45,
+			"layer": 3
 		}
+
 	]
 }

@@ -15,9 +15,6 @@
 			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
 
-			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
-			{ "key": "tutorial_hand1", "url": "src/assets/data/tutorial_hand1.json" },
-
 			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
@@ -26,7 +23,12 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" }
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+			{ "key": "tutorial_hand_pusher", "url": "src/assets/data/tutorial_hand_pusher.json" },
+			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" }
+
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -129,10 +131,18 @@
 			"isDestroyOnPusherDragStart": true
 		},
 		{
-			"name": "th1",
-			"template": "tutorial_hand1",
+			"name": "thpusher1",
+			"template": "tutorial_hand_pusher",
 			"x": 1820,
 			"y": 870,
+			"layer": 3
+		},
+		{
+			"name": "thp1",
+			"template": "tutorial_hand_pointing",
+			"x": 1250,
+			"y": 280,
+			"angle": -45,
 			"layer": 3
 		}
 	]

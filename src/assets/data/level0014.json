@@ -170,8 +170,8 @@
 		{
 			"name": "monkey001_light",
 			"template": "monkey001_light",
-			"x": 1375,
-			"y": 506,
+			"x": 1193,
+			"y": 673,
 			"layer": 2
 		},
 
@@ -186,8 +186,8 @@
 		{
 			"name": "pharao",
 			"template": "pharao_light",
-			"x": 916,
-			"y": 638,
+			"x": 829,
+			"y": 750,
 			"layer": 2
 		},
 
