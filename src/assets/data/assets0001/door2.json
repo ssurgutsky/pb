@@ -1,9 +1,9 @@
 {
 	"shape": "POLYGON",
-	"shapeName": "door1shape",
+	"shapeName": "door2shape",
 	"bodyType": "STATIC",
 	"atlas": "assets0001",
-	"lives": 2,
+	"lives": 5,
 	"livesEffect": true,
 	"frame": "door1",
 	"livesHitSound": ["hit_block2","hit_block"],

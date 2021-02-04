@@ -28,7 +28,7 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
-			{ "key": "spider_small", "url": "src/assets/data/assets0001/spider_small.json" },
+			{ "key": "spider_small34", "url": "src/assets/data/assets0001/spider_small34.json" },
 			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
 			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
 			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },
@@ -63,7 +63,7 @@
 	}, 
 	"bg": "bg",
 	"balls": 30,
-	"tasks": 2,
+	"tasks": 9,
 	"objects": [
 		{
 			"name": "bf1",
@@ -82,25 +82,96 @@
 
 
 		{
-			"name": "spider_small2",
-			"template": "spider_small",
+			"name": "spider_small1",
+			"template": "spider_small34",
 			"lives": 3,
-			"x": 1900,
-			"y": -1900,
+			"x": 600,
+			"y": 250,
 			"sx": 1,
 			"sy": 1,
 			"layer": 2
 		},
 		{
-			"name": "spider",
-			"template": "spider",
-			"lives": 5,
-			"x": 900,
-			"y": -300,
-			"sx": 2,
-			"sy": 2,
+			"name": "spider_small2",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 1200,
+			"y": 250,
+			"sx": 1,
+			"sy": 1,
 			"layer": 2
 		},
+		{
+			"name": "spider_small3",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 1800,
+			"y": 250,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small4",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 300,
+			"y": 450,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small5",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 900,
+			"y": 450,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small6",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 1500,
+			"y": 450,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small7",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 600,
+			"y": 650,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small8",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 120,
+			"y": 650,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+		{
+			"name": "spider_small9",
+			"template": "spider_small34",
+			"lives": 3,
+			"x": 1800,
+			"y": 650,
+			"sx": 1,
+			"sy": 1,
+			"layer": 2
+		},
+
 
 		{
 			"name": "brick13",

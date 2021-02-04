@@ -38,6 +38,7 @@
 			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
 			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
 			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 

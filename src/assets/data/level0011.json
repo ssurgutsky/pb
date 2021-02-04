@@ -113,13 +113,6 @@
 		{
 			"name": "h1",
 			"template": "hint1",
-			"x": 1017,
-			"y": 520,
-			"layer": 3
-		},
-		{
-			"name": "h2",
-			"template": "hint1",
 			"x": 1720,
 			"y": 700,
 			"layer": 3

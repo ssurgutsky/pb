@@ -36,6 +36,7 @@
 			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
 			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
@@ -189,7 +190,7 @@
 
 		{
 			"name": "rc1",
-			"template": "tutorial_red_cross11",
+			"template": "tutorial_red_cross",
 			"x": 550,
 			"y": 300,
 			"layer": 3

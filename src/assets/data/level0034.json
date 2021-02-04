@@ -10,7 +10,9 @@
 			{ "key": "music", "url": "src/assets/audio/music/music3.mp3" },
 			{ "key": "idle_spider", "url": "src/assets/audio/sound/idle_spider.mp3" },
 			{ "key": "move_spider", "url": "src/assets/audio/sound/move_spider.mp3" },
+			{ "key": "move_spider_big", "url": "src/assets/audio/sound/move_spider_big.mp3" },
 			{ "key": "hit_spider", "url": "src/assets/audio/sound/hit_spider.mp3" },
+			{ "key": "hit_spider_big", "url": "src/assets/audio/sound/hit_spider_big.mp3" },
 			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
 		],
 		"JSON": [
@@ -28,7 +30,9 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
-			{ "key": "spider_small34", "url": "src/assets/data/assets0001/spider_small34.json" },
+			{ "key": "spider_big", "url": "src/assets/data/assets0001/spider_big.json" },
+			{ "key": "spider_child", "url": "src/assets/data/assets0001/spider_child.json" },
+			{ "key": "spider_small", "url": "src/assets/data/assets0001/spider_small.json" },
 			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
 			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
 			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },
@@ -63,7 +67,7 @@
 	}, 
 	"bg": "bg",
 	"balls": 30,
-	"tasks": 9,
+	"tasks": 1,
 	"objects": [
 		{
 			"name": "bf1",
@@ -82,96 +86,15 @@
 
 
 		{
-			"name": "spider_small1",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 600,
-			"y": 250,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small2",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 1200,
-			"y": 250,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small3",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 1800,
-			"y": 250,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small4",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 300,
-			"y": 450,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small5",
-			"template": "spider_small34",
-			"lives": 3,
+			"name": "spider_big",
+			"template": "spider_big",
+			"lives": 7,
 			"x": 900,
-			"y": 450,
-			"sx": 1,
-			"sy": 1,
+			"y": -900,
+			"sx": 3,
+			"sy": 3,
 			"layer": 2
 		},
-		{
-			"name": "spider_small6",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 1500,
-			"y": 450,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small7",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 600,
-			"y": 650,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small8",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 120,
-			"y": 650,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-		{
-			"name": "spider_small9",
-			"template": "spider_small34",
-			"lives": 3,
-			"x": 1800,
-			"y": 650,
-			"sx": 1,
-			"sy": 1,
-			"layer": 2
-		},
-
 
 		{
 			"name": "brick13",

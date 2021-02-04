@@ -27,12 +27,14 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "spider", "url": "src/assets/data/assets0001/spider0.json" },
+			{ "key": "spider", "url": "src/assets/data/assets0001/spider.json" },
+			{ "key": "spider_small", "url": "src/assets/data/assets0001/spider_small.json" },
 			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
 			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
 			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },
 			{ "key": "spider_dead", "url": "src/assets/data/assets0001/spider_dead.json" },
 			{ "key": "spider_web", "url": "src/assets/data/assets0001/spider_web.json" },
+			{ "key": "spider_web_small", "url": "src/assets/data/assets0001/spider_web_small.json" },
 			{ "key": "spider_web_big", "url": "src/assets/data/assets0001/spider_web_big.json" },
 			{ "key": "spider_web_light", "url": "src/assets/data/assets0001/spider_web_light.json" },
 			{ "key": "spider_web_light_big", "url": "src/assets/data/assets0001/spider_web_light_big.json" },
@@ -60,8 +62,8 @@
 		]
 	}, 
 	"bg": "bg",
-	"balls": 20,
-	"tasks": 10,
+	"balls": 30,
+	"tasks": 2,
 	"objects": [
 		{
 			"name": "bf1",
@@ -80,95 +82,15 @@
 
 
 		{
-			"name": "swl1",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 690,
-			"y": 543,
+			"name": "spider_small2",
+			"template": "spider_small",
+			"lives": 3,
+			"x": 1900,
+			"y": -1900,
+			"sx": 1,
+			"sy": 1,
 			"layer": 2
 		},
-		{
-			"name": "swl2",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 360,
-			"y": 790,
-			"layer": 2
-		},
-		{
-			"name": "swl3",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 1035,
-			"y": 413,
-			"layer": 2
-		},
-		{
-			"name": "swl4",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 759,
-			"y": 875,
-			"layer": 2
-		},
-		{
-			"name": "swl5",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 1037,
-			"y": 147,
-			"layer": 2
-		},
-		{
-			"name": "swl6",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 1236,
-			"y": 866,
-			"layer": 2
-		},
-		{
-			"name": "swl7",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 1476,
-			"y": 594,
-			"layer": 2
-		},
-		{
-			"name": "swl8",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 1776,
-			"y": 60,
-			"layer": 4
-		},
-		{
-			"name": "swl9",
-			"template": "spider_web_light",
-			"timeToLive": 3,
-			"x": 300,
-			"y": 450,
-			"layer": 2
-		},
-		{
-			"name": "swl10",
-			"template": "spider_web_big",
-			"timeToLive": 3.3,
-			"x": 500,
-			"y": 250,
-			"layer": 2
-		},
-		{
-			"name": "swl11",
-			"template": "spider_web_big",
-			"timeToLive": 3.3,
-			"x": 1500,
-			"y": 250,
-			"layer": 2
-		},
-
-
 		{
 			"name": "spider",
 			"template": "spider",
@@ -249,7 +171,7 @@
 		{
 			"name": "Beam1",
 			"template": "beam1",
-			"lives": 19,
+			"lives": 99,
 			"layer": 3
 		},
 		{

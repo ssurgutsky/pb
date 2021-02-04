@@ -7,14 +7,16 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
-			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
 		],
 		"JSON": [
 			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/ball_big1.json" },
+			{ "key": "key_golden", "url": "src/assets/data/key_golden.json" },
 			{ "key": "pusher1", "url": "src/assets/data/pusher1.json" },
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/sensor_ground.json" },
 
@@ -28,18 +30,6 @@
 			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
 			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
 
-			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
-			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
-			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
-			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
-			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
-			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
-			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
-
-			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
-			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
-			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
-
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
@@ -51,14 +41,17 @@
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
 			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
 			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
+
+			{ "key": "door2", "url": "src/assets/data/assets0001/door2.json" },
+			{ "key": "keyhole1", "url": "src/assets/data/assets0001/keyhole1.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
 		]
 	}, 
 	"bg": "bg",
-	"balls": 20,
+	"balls": 10,
 	"tasks": 1,
 	"fails": 1,
 	"objects": [
@@ -70,57 +63,6 @@
 			"layer": 0
 		},
 
-		{
-			"name": "brick11",
-			"template": "brick1_3",
-			"x": 274,
-			"y": 900,
-			"angle": 90,
-			"layer": 2
-		},
-		{
-			"name": "brick12",
-			"template": "brick1_3",
-			"x": 268,
-			"y": 734,
-			"angle": 90,
-			"layer": 2,
-			"isDisabled": false
-		},
-		{
-			"name": "brick13",
-			"template": "brick1_3",
-			"x": 267,
-			"y": 567,
-			"angle": 90,
-			"layer": 2
-		},
-
-		{
-			"name": "brick21",
-			"template": "brick1_3",
-			"x": 474,
-			"y": 900,
-			"angle": 90,
-			"layer": 2
-		},
-		{
-			"name": "brick22",
-			"template": "brick1_3",
-			"x": 468,
-			"y": 734,
-			"angle": 90,
-			"layer": 2,
-			"isDisabled": false
-		},
-		{
-			"name": "brick23",
-			"template": "brick1_3",
-			"x": 467,
-			"y": 567,
-			"angle": 90,
-			"layer": 2
-		},
 
 		{
 			"name": "sensorGround",
@@ -169,34 +111,32 @@
 		},
 
 		{
-			"name": "monkey001_light",
-			"template": "monkey001_light",
-			"x": 500,
-			"y": 335,
-			"layer": 2
-		},
-		{
-			"name": "monkey002_light",
-			"template": "monkey002_light",
-			"x": 1046,
-			"y": 840,
-			"layer": 2
-		},
-		{
-			"name": "monkey003_light",
-			"template": "monkey003_light",
-			"x": 320,
-			"y": 335,
-			"angle": 0,
-			"layer": 2
+			"name": "h1",
+			"template": "hint1",
+			"x": 1720,
+			"y": 700,
+			"layer": 3
 		},
 
 		{
-			"name": "pharao",
-			"template": "pharao_light",
-			"x": 1110,
-			"y": 244,
-			"layer": 2
+			"name": "Door2",
+			"template": "door2",
+			"x": 250,
+			"y": 470,
+			"sx": 2,
+			"sy": 2
+		},
+		{
+			"name": "Keyhole1",
+			"template": "keyhole1",
+			"x": 340,
+			"y": 470
+		},
+		{
+			"name": "Keyhole1_2",
+			"template": "keyhole1",
+			"x": 340,
+			"y": 650
 		},
 
 		{
@@ -206,10 +146,15 @@
 			"layer": 3
 		},
 		{
-			"name": "Ball1",
-			"template": "ball_big1",
-			"x": 1720,
-			"y": 710,
+			"name": "Key1",
+			"template": "key_golden",
+			"impulseMultiplier": 3,
+			"isBall": true,
+			"isRespawnable": true,
+			"respawnSound": "respawn",
+			"x": 1719,
+			"y": 660,
+			"angle": -90,
 			"layer": 2
 		}
 	]

@@ -111,6 +111,31 @@
 			"shape": [150,478, 150,300, 200,300, 200,478]
 		}
 	],
+	"door2shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,478, 0,50, 150,50, 150,478]
+		},
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [150,200, 150,50, 200,50, 200,200]
+		},
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [150,478, 150,400, 200,400, 200,478]
+		}
+	],
+	"door3shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,478, 0,50, 150,50, 150,478]
+		},
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [150,200, 150,50, 200,50, 200,200]
+		}
+	],
+
 
 	"keyhole1shape": [
 		{
